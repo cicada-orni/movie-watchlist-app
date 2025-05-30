@@ -1,3 +1,3 @@
-const API_KEY = `d0050ab2be145485d89680513dab29a3`;
+const API_KEY = import.meta.env.VITE_TMDB_KEY;
 
 export { API_KEY };
